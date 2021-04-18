@@ -10,14 +10,45 @@ permalink: /
 <div class="container-fluid">
 	<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=MmhiYm42dW5ha2l0Y2c2Z2ZjdHFmMHZuNzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="filter: invert(1);margin-bottom:60px;" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
-	<iframe style="width: 100%;height:500px; margin-bottom: 60px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTD-0--ojZBVvOPDAzHT3byGVCvBHyzDz4bzRs5ds2tRY6G9bMGjEOJYf1gIuN4qZ0r_5Ol52bZYdYG/pubhtml?widget=true&amp;headers=false"></iframe>
 
 	<p class="fw-bold">Notes</p>
-	<ul>
+	<ul class="mb-5">
 		<li>Pullups are measured starting at 0 with feet on the ground. A score of 1 is given when feet are on the bar, and a score of 2 is given with the backpack. Then any weights added to the backpack are counted as their weight numbers so a 2.5 plate would be a score of 2.5</li>
 	</ul>
+
+
+	<div class="row">
+		{# To include the instructions/captions, add this to the data attributes of each blockquote #}
+		{# 'data-instgrm-captioned' #}
+		<div class="col-auto">
+			<h3>Shoulder Warmup</h3>
+			{% include "source/pages/instagram/shoulder-warmup.njk" %}
+		</div><!-- end col -->
+
+		<div class="col-auto">
+			<h3>Body Warmup</h3>
+			{% include "source/pages/instagram/body-warmup.njk" %}
+		</div><!-- end col -->
+
+		<div class="col-auto">
+			<h3>Leg Warmup</h3>
+			{% include "source/pages/instagram/leg-warmup.njk" %}
+		</div><!-- end col -->
+
+		<div class="col-auto">
+			<h3>Stretching</h3>
+			{% include "source/pages/instagram/stretching.njk" %}
+		</div><!-- end col -->
+
+		<div class="col-auto">
+			<h3>Bodyweight Chest</h3>
+			{% include "source/pages/instagram/bodyweight-chest.njk" %}
+		</div><!-- end col -->
+	</div><!-- end row -->
+
 </div><!-- end container -->
 
 
 
 
+<script async src="//www.instagram.com/embed.js"></script>
